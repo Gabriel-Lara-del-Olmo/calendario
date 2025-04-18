@@ -76,7 +76,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/calendario",
+              "baseHref": "/calendario/browser",
               "budgets": [
                 {
                   "type": "initial",
