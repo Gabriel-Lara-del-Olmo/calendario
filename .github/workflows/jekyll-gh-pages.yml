@@ -40,6 +40,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Create 404.html for SPA routing
+      run: cp ./dist/calendar/index.html ./dist/calendar/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
